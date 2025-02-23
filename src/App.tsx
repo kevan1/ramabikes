@@ -17,7 +17,7 @@ function App() {
       {/* Navigation */}
       <nav className="px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <img src="public/logo.jpg" alt="RamaBikes Logo" className="h-12 w-12" />
+          <img src="/logo.jpg" alt="RamaBikes Logo" className="h-12 w-12" />
           <span className="text-2xl font-bold italic">RamaBikes</span>
         </div>
         <div className="hidden md:flex items-center space-x-8">
@@ -75,11 +75,12 @@ function App() {
 
           {/* Right Column */}
           <div className="relative aspect-square">
-            <img
-              src="https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&q=80"
+          <img
+              src="home.jpg"
               alt="Cyclist in motion"
               className="rounded-2xl object-cover w-full h-full shadow-2xl"
             />
+
             <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-transparent rounded-2xl"></div>
           </div>
         </div>
@@ -93,7 +94,7 @@ function App() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <img
-                  src="public/logo.jpg"
+                  src="/logo.jpg"
                   alt="RamaBikes Logo"
                   className="h-10 w-10 brightness-100"
                 />
