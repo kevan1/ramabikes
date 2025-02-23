@@ -8,6 +8,7 @@ import {
   Mail,
   Phone,
   MapPin,
+  Youtube,
 } from 'lucide-react';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       {/* Navigation */}
       <nav className="px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <img src="src/logo.jpg" alt="RamaBikes Logo" className="h-12 w-12" />
+          <img src="public/logo.jpg" alt="RamaBikes Logo" className="h-12 w-12" />
           <span className="text-2xl font-bold italic">RamaBikes</span>
         </div>
         <div className="hidden md:flex items-center space-x-8">
@@ -92,7 +93,7 @@ function App() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <img
-                  src="src/logo.jpg"
+                  src="public/logo.jpg"
                   alt="RamaBikes Logo"
                   className="h-10 w-10 brightness-100"
                 />
@@ -170,19 +171,18 @@ function App() {
                   href="#"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  <Facebook size={24} />
+                  <Youtube size={24} />
                 </a>
                 <a
-                  href="#"
+                  href="#https://www.youtube.com/@Ramabikes"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   <Instagram size={24} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/ramabikes_/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  <Twitter size={24} />
                 </a>
               </div>
             </div>
